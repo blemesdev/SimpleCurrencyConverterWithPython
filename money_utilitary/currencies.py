@@ -1,6 +1,4 @@
-
 import json, requests;
-
 
 class Currencies:
     real=0;
@@ -25,13 +23,6 @@ class Currencies:
     def ConvertRealToDolar(self):
         convert = self.real / self.dolar;
         return convert;
-    
-
-currencies = Currencies();
-
-currencies.real = float(input('Digite a quantidade em reais R$: '));
-currencies.PegarDados();
-convertido = currencies.ConvertRealToDolar();
-real = currencies.getReal();
-
-print('Quantidade de R$ {:.2f} em dolár é : ${:.2f}  '.format(real, convertido)); 
+        
+            
+        
